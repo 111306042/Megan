@@ -1,0 +1,155 @@
+body {
+        background-color:rgb(233, 244, 255);
+    }
+
+    body {
+
+    background-image: url('bottomright.jpg');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 200px 100px;
+}
+
+    #Header1 {
+        background-color:yellowgreen;
+        padding: 18px;
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Header2 {
+        background-color:paleturquoise;
+        color:black;
+        padding: 10px;
+        font-weight: lighter;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .Info {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: large;
+    }
+
+    span {color: darkblue; font-size: .7em; height: 1em;}
+    .super {position: relative;
+        top: -1ex;}
+    .sub {position: relative;
+        bottom :-1ex;}
+    .shiftleft {position: relative;
+        left:-1ex;}
+    .shiftright { position:relative;
+        right:-1ex }
+
+    a.nodec {text-decoration:none;}
+    a:hover {color: red;}
+    li em {color:blue;}
+    h1, em {color: green;}
+    ul {margin-left:20px;}
+    ul ul {font-size:.8em;}
+    p{color:darkorange;}
+
+    }
+    .background_image {position:absolute;
+            top:0px;
+            left:0px;
+            z-index:0;}
+    .foreground_image {position:absolute;
+            top:25px;
+            left: 100px;
+            z-index: 2;}
+    .text {position :absolute;
+            top:25px;
+            left:100px;
+            z-index : 3;
+            font-size : 20pt;
+            font-family : tahoma, geneva, sans-serif;}
+
+    p {
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        padding-left: 30px;
+    }
+    p.dashed {border-style: dashed; }
+
+    div {
+        border: 1px solid black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 70px;
+        margin-left: 80px;
+        background-color: lavender;
+        width: 55%;
+    }
+
+
+    .floated {background-color: rebeccapurple;
+            font-size: 2em;
+            font-family: arial, sans-serif;
+            padding: .2em;
+            margin-left: .5em;
+            margin-bottom: .5em;
+            float: right;
+            text-align: right;
+            width: 20%;}
+
+    .floated2 {background-color: lightblue;
+            font-size: 2em;
+            font-family: arial, sans-serif;
+            padding: .2em;
+            margin-left: .5em;
+            margin-bottom: .5em;
+            float: right;
+            text-align: right;
+            width: 20%;}
+
+    img {
+        float: none;
+        margin : 20px 20px 10px 10px;
+    }
+
+    div.scroll {
+        background-color : purple;
+        width : 100px;
+        height : 100px;
+        overflow: scroll;
+    }
+
+    nav { font-weight: bold;
+    color:white;
+    border: 2px solid RoyalBlue;
+    text-align: center;
+    width: 10em;
+    background-color: RoyalBlue;}
+    nav ul { display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;}
+    nav:hover ul {display: block;}
+    nav ul li {border-top: 2px solid royalblue;
+    background-color: white;
+    width: 10em;
+    color: black;}
+    nav ul li:hover { background-color:skyblue;}
+    a {text-decoration: none;}
+
+    @media screen and (min-width: 480px) {
+    body {background-color: slateblue;}
+    h1 {font-family: verdana, helvetica, sans-serif;
+        color: palegreen;}
+    p {font-size : 12pt;
+        color:orange;
+        font-family: arial, sans-serif;}
+    }
+
+    @media print {
+    body {background-color: white;}
+    h1 {color: seagreen;}
+    p {font-size: 14pt;
+    color: steelblue;
+    font-family: "times new roman", times, serif;}
+    }
+
+
