@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<head>
+<body>
+
+<input type = "button" value = "1st input" onClick = "alert(first)">
+<input type = "button" value = "2nd input" onClick = "alert(second)">
+
+<script>
+
+var first;
+var second;
+
+first = parseInt(window.prompt("Enter first integer"));
+second = parseInt(window.prompt("Enter second integer"));
+if (first > second) {
+	document.body.style.backgroundColor = 'lightblue'
+	document.writeln(first + " > " + second);
+}
+else if (second > first) {
+	document.body.style.backgroundColor = 'lightgreen'
+	document.writeln(second + " > " + first);
+}
+else {
+document.body.style.backgroundColor = 'lightyellow'
+document.writeln(first + " == " + second);
+}
+
+</script>
+
+</body>
+</head>
